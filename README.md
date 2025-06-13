@@ -50,7 +50,7 @@ A fun and simple Python mini project where the computer randomly selects a numbe
 ```bash
 python 2_number_guessing_game.py
 ```
-----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ✊🖐✌ Rock Paper Scissors
 
 A simple Python game where you play Rock, Paper, Scissors against the computer.
@@ -71,3 +71,46 @@ A simple Python game where you play Rock, Paper, Scissors against the computer.
 ```bash
 python 3_rock_paper_scissor.py
 ```
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🗺️ Choose Your Own Adventure Game
+
+A beginner-friendly, text-based adventure game built in Python. The player makes choices that lead to different outcomes — some good, some fatal!
+
+---
+
+## 📜 Description
+
+In this game, you play as a traveler exploring unknown paths. You'll encounter rivers, bridges, strangers, and choices that determine your fate. A great way to practice Python conditionals and user input handling.
+
+---
+
+## ▶️ How to Run
+
+```bash
+python 4_choose_your_own_adventure.py
+```
+✅ Features
+Interactive decision-making
+
+Branching story paths
+
+Multiple endings (win/lose)
+
+Simple and beginner-friendly code
+
+💡 Future Ideas
+Add scoring or a "health" system
+
+Include more complex story arcs or side quests
+
+Add ASCII art or sound effects
+
+Convert into a GUI using Tkinter
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📜 License
+This project is open-source under the MIT License.
