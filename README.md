@@ -29,7 +29,7 @@ This project uses only Python's built-in libraries — no external dependencies 
 - Load questions from a file or API
 - GUI version using Tkinter
 
----
+----
 
 # 🎯 Number Guessing Game
 
@@ -49,7 +49,7 @@ A fun and simple Python mini project where the computer randomly selects a numbe
 python 2_number_guessing_game.py
 ```
 
----
+----
 
 # ✊🖐✌ Rock Paper Scissors
 
@@ -68,7 +68,7 @@ A simple Python game where you play Rock, Paper, Scissors against the computer.
 python 3_rock_paper_scissor.py
 ```
 
----
+----
 
 # 🗺️ Choose Your Own Adventure Game
 
@@ -98,7 +98,7 @@ python 4_choose_your_own_adventure.py
 - Add ASCII art or sound effects
 - Convert into a GUI using Tkinter
 
----
+----
 
 # 🖥️ GUI Password Manager
 
@@ -124,7 +124,7 @@ python 5_password_manager.py
 - Edit/delete stored passwords
 - Export/import functionality
 
----
+----
 
 ## 📜 License
 
