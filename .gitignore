@@ -33,3 +33,7 @@ profile.cov
 
 # Jupyter Notebook checkpoints (if using .ipynb)
 .ipynb_checkpoints/
+
+
+key.key
+passwords.txt
