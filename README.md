@@ -35,8 +35,6 @@ This project uses only Python's built-in libraries — no external dependencies 
 
 A fun and simple Python mini project where the computer randomly selects a number between 1 and 100, and your goal is to guess it.
 
----
-
 ## 📋 Features
 
 - Random number generated between 1 and 100
@@ -45,19 +43,17 @@ A fun and simple Python mini project where the computer randomly selects a numbe
 - Option to quit anytime by typing `Quit`
 - Tracks number of guesses
 
----
-
 ## ▶️ How to Run
 
 ```bash
 python 2_number_guessing_game.py
 ```
 
+---
+
 # ✊🖐✌ Rock Paper Scissors
 
 A simple Python game where you play Rock, Paper, Scissors against the computer.
-
----
 
 ## 🕹 How to Play
 
@@ -65,8 +61,6 @@ A simple Python game where you play Rock, Paper, Scissors against the computer.
 - The computer randomly picks one too.
 - You win, lose, or draw based on the usual game rules.
 - Type `no` when asked to quit.
-
----
 
 ## ▶️ Run the Game
 
@@ -80,13 +74,9 @@ python 3_rock_paper_scissor.py
 
 A beginner-friendly, text-based adventure game built in Python. The player makes choices that lead to different outcomes — some good, some fatal!
 
----
-
 ## 📜 Description
 
 In this game, you play as a traveler exploring unknown paths. You'll encounter rivers, bridges, strangers, and choices that determine your fate. A great way to practice Python conditionals and user input handling.
-
----
 
 ## ▶️ How to Run
 
@@ -94,27 +84,48 @@ In this game, you play as a traveler exploring unknown paths. You'll encounter r
 python 4_choose_your_own_adventure.py
 ```
 
-✅ Features
-Interactive decision-making
+## ✅ Features
 
-Branching story paths
+- Interactive decision-making
+- Branching story paths
+- Multiple endings (win/lose)
+- Simple and beginner-friendly code
 
-Multiple endings (win/lose)
+## 💡 Future Ideas
 
-Simple and beginner-friendly code
-
-💡 Future Ideas
-Add scoring or a "health" system
-
-Include more complex story arcs or side quests
-
-Add ASCII art or sound effects
-
-Convert into a GUI using Tkinter
+- Add scoring or a "health" system
+- Include more complex story arcs or side quests
+- Add ASCII art or sound effects
+- Convert into a GUI using Tkinter
 
 ---
 
+# 🖥️ GUI Password Manager
+
+A password manager with a graphical user interface (GUI) built using Tkinter. Encrypts and stores passwords locally using the `cryptography` library.
+
+## ▶️ How to Run
+
+```bash
+pip install cryptography
+python 5_password_manager.py
+```
+
+## ✅ Features
+
+- Secure password storage with encryption
+- Add/view functionality in a simple GUI
+- Uses Fernet (symmetric encryption)
+- Auto-generates a key if not found
+
+## 💡 Future Ideas
+
+- Add master password
+- Edit/delete stored passwords
+- Export/import functionality
+
 ---
 
-📜 License
+## 📜 License
+
 This project is open-source under the MIT License.
