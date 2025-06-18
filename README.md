@@ -125,6 +125,27 @@ python 5_password_manager.py
 - Export/import functionality
 
 ----
+# 🎲 Pig Dice Game (Optimized)
+
+A competitive dice game where players race to reach a target score (20). The winner is the one who reaches it with the fewest number of dice rolls.
+
+## ▶️ How to Run
+
+```bash
+python 6_pig.py
+```
+## ✅ Features
+
+- 2 to 4 players
+- Re-roll until player holds or rolls a 1
+- Tracks how many times each player rolls
+- Winner is chosen based on fewest rolls (and highest score in case of tie)
+
+## 💡 Future Ideas
+
+- Add GUI with Tkinter
+- Show leaderboard of roll counts
+- Allow setting target score dynamically
 
 ## 📜 License
 
