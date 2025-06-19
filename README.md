@@ -147,6 +147,43 @@ python 6_pig.py
 - Show leaderboard of roll counts
 - Allow setting target score dynamically
 
+ ----
+
+  # ✍️ Mad Libs Generator (Enhanced)
+
+A fun and interactive Python project where users fill in blanks in a story by providing words like nouns, verbs, adjectives, etc. The story template is read from a file, and users can generate multiple versions!
+
+---
+
+## ▶️ How to Run
+
+Make sure a file named `story` is in the same folder. It should contain words in `{}` brackets (e.g., `{noun}`, `{verb}`).
+
+Then run:
+
+```bash
+python 7_madlibs_generator.py
+```
+## ✅ Features
+
+- Reads template from external file
+- Automatically detects all {placeholder} fields
+- Prompts user for each word
+- Ensures input is not empty
+- Loops for multiple plays
+- Optionally saves the generated story to madlib_output.txt
+
+## Example of a story file
+
+Today I went to the {place}. I saw a {adjective} {noun} jumping over a {noun}.
+Then I {verb_past_tense} all the way home!
+
+## 💡 Future Improvements
+
+- Allow users to load from multiple templates
+- Add support for random word suggestions
+- Convert to a web or GUI version
+
 ## 📜 License
 
 This project is open-source under the MIT License.
