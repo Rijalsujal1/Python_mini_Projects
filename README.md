@@ -184,6 +184,39 @@ Then I {verb_past_tense} all the way home!
 - Add support for random word suggestions
 - Convert to a web or GUI version
 
+----
+
+ # 🧮 Timed Math Challenge (GUI)
+ 
+A fun and interactive GUI-based math quiz game that challenges users with 10 randomly generated arithmetic problems (addition, subtraction, multiplication). Built with Python and Tkinter.
+
+---
+
+▶️ How to Run
+Make sure you have Python installed.
+
+```bash
+python 8_Timed_math_challenge.py
+```
+
+## ✅ Features
+
+- Clean and user-friendly Tkinter GUI
+- 10 math problems using +, -, and *
+- Input answer and press Enter to submit
+- Tracks number of correct answers
+- Displays total and average time at the end
+- “Restart” button to play again instantly
+
+## 💡 Future Ideas
+
+- Add difficulty levels (easy, medium, hard)
+- Include division and exponent operations
+- Maintain a high score leaderboard
+- Add background music or timer sounds
+- Create a web-based version with Flask or Django
+
+
 ## 📜 License
 
 This project is open-source under the MIT License.
