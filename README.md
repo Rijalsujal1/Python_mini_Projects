@@ -216,6 +216,41 @@ python 8_Timed_math_challenge.py
 - Add background music or timer sounds
 - Create a web-based version with Flask or Django
 
+  
+# 🎰 Slot Machine Game in Python
+
+This is a simple command-line based **Slot Machine Game** written in Python. It allows players to deposit money, choose the number of lines to bet on, place a bet per line, spin a 3x3 slot machine, and win money based on matching symbols across lines.
+
+
+## ▶️ How to Run
+
+Make sure you have Python installed (Python 3.x recommended).
+
+1. Save the code in a Python file, e.g., `slot_machine.py`
+2. Open your terminal or command prompt
+3. Run the game:
+
+```bash
+python slot_machine.py
+```
+
+## ✅ Features
+
+- Deposit and track balance
+- Bet on 1 to 3 horizontal lines
+- Randomly generate slot spins
+- Match symbols to win money
+- Adjustable bet amounts with min and max limits
+- Displays winnings and winning lines
+- Balance update after each spin
+
+## 💡 Future Ideas
+
+- Add diagonal or vertical winning logic
+- Improve symbol randomization with better probability control
+- Add a GUI using Tkinter or PyQt
+- Save balance to a file or database for session persistence
+
 
 ## 📜 License
 
