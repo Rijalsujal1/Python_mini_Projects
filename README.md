@@ -216,7 +216,8 @@ python 8_Timed_math_challenge.py
 - Add background music or timer sounds
 - Create a web-based version with Flask or Django
 
-  
+----
+
 # 🎰 Slot Machine Game in Python
 
 This is a simple command-line based **Slot Machine Game** written in Python. It allows players to deposit money, choose the number of lines to bet on, place a bet per line, spin a 3x3 slot machine, and win money based on matching symbols across lines.
@@ -250,6 +251,37 @@ python slot_machine.py
 - Improve symbol randomization with better probability control
 - Add a GUI using Tkinter or PyQt
 - Save balance to a file or database for session persistence
+
+  ----
+
+  
+ # 🐢 Turtle Racing Game
+A colorful, animated turtle racing game built using Python's turtle graphics module. Players can select the number of racers, watch them speed across the screen, and cheer for their favorite turtle!
+
+
+## ▶️ How to Run
+Make sure you have Python installed (Python 3.x recommended).
+``` bash
+python 10_turle_racing.py
+```
+
+## ✅ Features
+
+- Choose between 2 to 10 racers
+- Randomly selected turtle colors
+- Fully animated race using Turtle graphics
+- Winner announced in the console
+- Beginner-friendly code with easy customization
+
+
+## 💡 Future Ideas
+
+- Add a GUI start menu with race options
+- Include cheering sound effects
+- Track multiple race stats and leaderboard
+- Let players bet on a turtle before the race
+- Display winning time or race duration
+
 
 
 ## 📜 License
