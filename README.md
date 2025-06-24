@@ -282,6 +282,45 @@ python 10_turle_racing.py
 - Let players bet on a turtle before the race
 - Display winning time or race duration
 
+----
+
+# ⌨️ WPM Typing Test (Terminal)
+A terminal-based typing speed test application using the curses module. The program measures your words per minute (WPM) by comparing your typed text to a randomly chosen sentence.
+
+## ▶️ How to Run
+Make sure you have Python installed.
+``` bash
+python 11_wpm_typing_test.py
+```
+🔴 On Windows (not directly supported):
+Install windows-curses first: 
+``` bash
+pip install windows-curses
+```
+
+#📋 Required File
+You must have a file named:
+
+``` bash
+wpm_text_file.txt
+```
+...in the same folder, containing lines like:
+
+## ✅ Features
+
+- Terminal UI with color-coded feedback
+- Calculates and displays WPM in real-time
+- Random sentence is loaded each round
+- Replays the test automatically until ESC is pressed
+- Gracefully handles missing file with a fallback sentence
+
+## 💡 Future Ideas
+
+- Save high scores
+- Add difficulty levels (short/long sentences)
+- Support timed challenges (e.g., 60 seconds typing mode)
+- Export results to a file
+
 
 
 ## 📜 License
