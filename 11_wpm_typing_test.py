@@ -17,7 +17,7 @@ def start_screen(stdscr):
 def display_text(stdscr, target, current, wpm=0):
     stdscr.addstr(0, 0, target)
     stdscr.addstr(1, 0, f"WPM: {wpm}")
-    
+
     for i, char in enumerate(current):
         correct_char = target[i]
         color = curses.color_pair(1)
@@ -39,6 +39,7 @@ def wpm_test(stdscr):
     target_text = load_text()
     current_text = []
     wpm = 0
+
     start_time = time.time()
     stdscr.nodelay(True)
 
