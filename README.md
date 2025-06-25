@@ -321,6 +321,53 @@ wpm_text_file.txt
 - Support timed challenges (e.g., 60 seconds typing mode)
 - Export results to a file
 
+----
+
+# ⏰ Alarm Timer with Sound (12_timer.py)
+
+A simple Python script that plays an alarm sound after a user-defined countdown. Ideal for short reminders or personal timeboxing.
+
+---
+
+## 📜 Description
+
+This lightweight script prompts the user to enter a countdown time in seconds. After counting down to zero, it plays an alarm sound using the `pygame` library. It’s a simple, terminal-based tool that helps with personal productivity or study intervals.
+
+---
+
+## ▶️ How to Run
+
+1. Ensure you have Python installed (Python 3.x recommended).
+2. Place an audio file named `alaram.wav` in the same directory.
+3. Run the script:
+
+```bash
+python 12_timer.py
+```
+
+## ✅ Features
+
+- User input for custom countdown duration
+- Real-time countdown in the terminal
+- Plays an alarm (alaram.wav) at the end
+- Keeps the program running until the sound finishes
+
+## 📦 Requirements
+Install the required library:
+
+``` bash
+pip install pygame
+```
+Make sure the file alaram.wav is placed in the same folder as 12_timer.py.
+
+## 💡 Future Improvements
+
+- GUI version using tkinter
+- Option to choose alarm sound dynamically
+- Support for hh:mm:ss input format
+- Add pause/resume functionality
+
+
 
 
 ## 📜 License
