@@ -367,6 +367,58 @@ Make sure the file alaram.wav is placed in the same folder as 12_timer.py.
 - Support for hh:mm:ss input format
 - Add pause/resume functionality
 
+----
+
+# 🔐 Secure Password Generator (Terminal)
+
+A Python script to generate strong, random passwords with customizable options. Built using secure libraries like `secrets` and `string`, this tool ensures your passwords are robust and unpredictable.
+
+---
+
+## 📜 Description
+
+This terminal-based password generator lets you:
+- Choose the minimum length
+- Include or exclude numbers
+- Include or exclude special characters
+- Automatically copy the result to the clipboard (if `pyperclip` is installed)
+
+The password is generated using Python’s `secrets` module, ensuring cryptographic randomness.
+
+---
+
+## ▶️ How to Run
+
+1. Make sure you have Python installed (Python 3.x).
+2. Save the file as `password_generator.py` or similar.
+3. Run it from the terminal:
+
+```bash
+python password_generator.py
+```
+
+## 📦 Requirements
+
+To enable auto-copy to clipboard, install:
+
+``` bash
+pip install pyperclip
+```
+
+## ✅ Features
+
+- Customizable password length
+- Option to include numbers and/or special characters
+- Ensures password meets selected criteria
+- Uses secrets for secure randomness
+- (Optional) Automatically copies the password to clipboard if pyperclip is installed
+
+## 💡 Future Improvements
+
+- Add GUI version with Tkinter
+- Save generated passwords securely in a file
+- Include strength meter for generated passwords
+- Support for generating multiple passwords at once
 
 
 
