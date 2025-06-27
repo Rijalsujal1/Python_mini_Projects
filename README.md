@@ -420,7 +420,58 @@ pip install pyperclip
 - Include strength meter for generated passwords
 - Support for generating multiple passwords at once
 
+----
 
+# 🧭 Pathfinding Visualizer with Tkinter
+
+An interactive Python GUI application that visualizes popular pathfinding algorithms like **A\***, **BFS**, and **DFS** on a customizable maze. Built using `Tkinter`, this tool is perfect for learning and demonstrating how pathfinding works.
+
+---
+
+## 🖥️ Screenshots
+
+> *![image](https://github.com/user-attachments/assets/2323d971-f5ca-4860-82bd-6b7d99cfae42)*
+> 
+---
+
+## 📚 Requirements
+
+Python 3.x
+No external dependencies (uses built-in tkinter and json)
+## 🚀 Getting Started
+---- 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+2. Run the App
+``` bash
+python 14_path_finder.py
+A file dialog will open—choose a maze file like sample_maze.json.
+```
+
+## ✨ Features
+
+- 🎨 **Visual Interface** with `Tkinter`
+- 🔁 **Multiple Algorithms**: A\*, BFS, and DFS
+- 🐌 **Speed Control**: Adjust animation delay
+- ⏯️ **Start / Reset Buttons**
+- 📂 **Load Maze from JSON**
+- ⚡ **Smooth, Threaded Execution** to prevent UI freeze
+  
+## 🛠️ Future Enhancements
+
+- 🧱 Maze editor: click to draw walls/start/end
+- 📤 Save/export maze layout
+- 🎯 Weighted grid support (for Dijkstra)
+
+----
+
+## 🧑‍💻 Author
+Sujal Rijal
 
 ## 📜 License
 
