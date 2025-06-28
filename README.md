@@ -19,16 +19,12 @@ python 1_quiz_game.py
 - Score calculation and display
 - Option to replay
 
-## 🛠 Requirements
-
-This project uses only Python's built-in libraries — no external dependencies required.
-
 ## 💡 Future Improvements
 
 - Add question categories or difficulty levels
 - Load questions from a file or API
 - GUI version using Tkinter
-
+- 
 ----
 
 # 🎯 Number Guessing Game
